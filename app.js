@@ -46,12 +46,12 @@ function showResult(res){
     if(res){
         // console.log("will work")
         msgEl.innerHTML = "Software will Works Smoothly On Your Device";
-        msgEl.style.color = "red"
+        msgEl.style.color = "green"
         gifEl.src = "https://media.giphy.com/media/kz6cm1kKle2MYkHtJF/giphy.gif"        
     }else{
         // console.log("will not work")
         msgEl.innerHTML = "Software will NOT work Smoothly On Your Device";
-        msgEl.style.color = "green"
+        msgEl.style.color = "red"
         gifEl.src = "https://media.giphy.com/media/bPCwGUF2sKjyE/giphy.gif" 
     }
     resultDiv.appendChild(msgEl)

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compitiblity</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="logo">
+      <h1>Compatibility</h1>
+    </div>
+    <div id="intro">
+      <p>Check any Software Compatibility on your Device</p>
+    </div>
+    <section class="hero">
+      <div id="system-container">
+        <h3>Your System Information</h3>
+        <div>
+          <label for="ram">Device RAM : </label>
+          <select name="ram" id="ram">
+            <option value="2">2 GB</option>
+            <option value="4">4 GB</option>
+            <option value="8">8 GB</option>
+            <option value="16">16 GB</option>
+            <option value="32">32 GB</option>
+          </select>
+        </div>
+        <div>
+          <label for="os">Device Opreating System : </label>
+          <select name="os" id="os">
+            <option value="linux">Linux</option>
+            <option value="apple">Apple</option>
+            <option value="microsoft">Microsoft</option>
+          </select>
+        </div>
+      </div>
+      <div id="software-container">
+        <label for="software">Select Software</label>
+        <select name="software" id="software">
+          <option value="photoshop">PhotoShop</option>
+          <option value="illustrator">Illustrator</option>
+          <option value="premiere-pro">Premiere Pro</option>
+          <option value="blender">Blender</option>
+          <option value="davinci">DaVinci Resolve</option>
+        </select>
+      </div>
+      <button id="show-btn">Check</button>
+    </section>
+    <section id="result-container">
+      <div class="result"></div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
